@@ -12,14 +12,15 @@ public class HomeWork1 {
         char charVar = (char)10101100;
         boolean boleanVar = true;
         //-----------------------------------
-
+        
+        //---------------Вывожу результаты методов
         System.out.println(result1(3.7f, 4.3f, 5, 6.1456f) );
         System.out.println(result2(4, 1));
         result3(-5);
         System.out.println(result4(2));
         hello_method("anton");
         System.out.println(visokos_god(0));
-
+        //-----------------------------------------
     }
     //--------------------------Пункт 3
     public static float result1 (float a , float b, float c, float d){ //не оговорено - какой тип данных должен возвращать метод. Я выбрал float
