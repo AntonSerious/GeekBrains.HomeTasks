@@ -49,7 +49,7 @@ public class HomeWork2 {
 
 
 //Наверное имеется в виду заполнить главную и побочную диагональ.
-        System.out.println("-----------------Task_4_1-----------------------------");
+        System.out.println("-----------------Task_4-----------------------------");
         int[][] array4 = new int[7][7];
         for (int i = 0; i < array4.length; i++) {
             for (int j = 0; j < array4[i].length; j++) {
@@ -58,29 +58,12 @@ public class HomeWork2 {
                 }
             }
         }
-
         for (int i = 0; i < array4.length; i++) {
             for (int j = 0; j < array4[i].length; j++) {
                 System.out.print(array4[i][j] + " ");
             }
             System.out.println(" ");
         }
-
-        //второй вариант
-        System.out.println("-----------------Task_4_2-----------------------------");
-        int[][] array4_2 = new int[7][7];
-        for (int i = 0; i < array4.length; i++) {
-            array4_2[i][i] = 1;
-            array4_2[i][array4_2.length -1 - i] = 1;
-        }
-
-        for (int i = 0; i < array4.length; i++) {
-            for (int j = 0; j < array4_2[i].length; j++) {
-                System.out.print(array4_2[i][j] + " ");
-            }
-            System.out.println(" ");
-        }
-
 
         System.out.println("----------------------------------------------------");
 
